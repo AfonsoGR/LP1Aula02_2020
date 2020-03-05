@@ -13,6 +13,7 @@ namespace Cilindro
             float r;
             float v;
             float sa;
+            const float pi = 3.1415926f;
 
             // Ask for user inputs
             Console.WriteLine("What's the height of the cylinder?");
@@ -25,8 +26,8 @@ namespace Cilindro
             r = float.Parse(radius);
 
             // Calculating volume and surface area
-            v = 3.1415926f*(r*r)*h;
-            sa = 2 * 3.1415926f * r * (r + h); 
+            v = pi * (r * r) * h;
+            sa = 2 * pi * r * (r + h); 
 
             // Presenting results
             Console.WriteLine("The volume of the cylinder is " + v); 
