@@ -8,12 +8,11 @@ namespace Cilindro
         {
             // Variables
             string height;
-            float h;
+            double h;
             string radius;
-            float r;
-            float v;
-            float sa;
-            const float pi = 3.1415926f;
+            double r;
+            double v;
+            double sa;
 
             // Ask for user inputs
             Console.WriteLine("What's the height of the cylinder?");
@@ -22,12 +21,12 @@ namespace Cilindro
             radius = Console.ReadLine();   
 
             // Convert floats into strings
-            h = float.Parse(height);
-            r = float.Parse(radius);
+            h = double.Parse(height);
+            r = double.Parse(radius);
 
             // Calculating volume and surface area
-            v = pi * (r * r) * h;
-            sa = 2 * pi * r * (r + h); 
+            v = Math.PI * Math.Pow(r, r) * h;
+            sa = 2 * Math.PI * r * (r + h); 
 
             // Presenting results
             Console.WriteLine("The volume of the cylinder is " + v); 
