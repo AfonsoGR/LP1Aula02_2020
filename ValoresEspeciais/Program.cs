@@ -77,19 +77,19 @@ namespace ValoresEspeciais
             Console.WriteLine(x);
             Console.WriteLine(y);
 
-            // Variables Phase 03
+            // Variables Phase Ex07
             int i = int.MaxValue;
             double z = 2 * double.MaxValue;
             double z1 = double.MaxValue + 1;
             float f1, f2;
             f1 = f2 = 10000.0f;
 
-            // Display results with overflow Phase 03
+            // Display results with overflow Ex07
             Console.WriteLine((int) + (i + 1));
             Console.WriteLine(z);
             Console.WriteLine(z1);
 
-            // Display results with underflow Phase 03
+            // Display results with underflow Ex07
             Console.WriteLine(f1 == f2 + 0.0001f);
         }
     }
