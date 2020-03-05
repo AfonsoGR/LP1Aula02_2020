@@ -19,12 +19,13 @@ namespace ChatBot
             switch (question)
             {
                 case "Fun fact":
-                    response = "Banging your head against a wall for " 
+                    response = "Banging your head against a wall for" 
                         + "one hour burns 150 calories.";
                     break;
                 case "Dad joke":
                     response = "Did you hear about the chameleon who " 
-                        + "couldn't change color? He had a reptile dysfunction.";
+                        + "couldn't change color?\n" 
+                        + "He had a reptile dysfunction.";
                     break;
                 case "2 sentence horror":
                     response = "The doctors told the amputee he might " 

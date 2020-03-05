@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "Valores
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{EA91CB98-1288-411B-A660-2C2E53070607}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piramide", "Piramide\Piramide.csproj", "{B6824EFA-04E5-4869-B053-B49251B4A6FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{EA91CB98-1288-411B-A660-2C2E53070607}.Release|x64.Build.0 = Release|Any CPU
 		{EA91CB98-1288-411B-A660-2C2E53070607}.Release|x86.ActiveCfg = Release|Any CPU
 		{EA91CB98-1288-411B-A660-2C2E53070607}.Release|x86.Build.0 = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|x64.Build.0 = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Debug|x86.Build.0 = Debug|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|x64.Build.0 = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6824EFA-04E5-4869-B053-B49251B4A6FB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
