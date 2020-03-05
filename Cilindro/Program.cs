@@ -25,7 +25,7 @@ namespace Cilindro
             r = double.Parse(radius);
 
             // Calculating volume and surface area
-            v = Math.PI * Math.Pow(r, r) * h;
+            v = Math.PI * Math.Pow(r, 2) * h;
             sa = 2 * Math.PI * r * (r + h); 
 
             // Presenting results
