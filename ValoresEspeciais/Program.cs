@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace ValoresEspeciais
 {
@@ -6,7 +7,9 @@ namespace ValoresEspeciais
     {
         static void Main(string[] args)
         {
-            // Variables
+            Console.OutputEncoding = Encoding.UTF8;
+
+            // Variables Phase 01
             sbyte sbmax = sbyte.MaxValue;
             sbyte sbmin = sbyte.MinValue;
 
@@ -31,7 +34,7 @@ namespace ValoresEspeciais
             short smax = short.MaxValue;
             short smin = short.MinValue;
 
-            // Print values
+            // Print values Phase 01
             Console.WriteLine(sbmax);
             Console.WriteLine(sbmin);
             
@@ -55,6 +58,24 @@ namespace ValoresEspeciais
 
             Console.WriteLine(smax);
             Console.WriteLine(smin);
+
+            // Variables Phase 02
+            double dp = double.PositiveInfinity;
+            double dn = double.NegativeInfinity;
+
+            float fp = float.PositiveInfinity;
+            float fn = float.PositiveInfinity;
+
+            double x = double.PositiveInfinity;
+            float y = float.NaN;
+
+            // Print values Phase 02
+            Console.WriteLine(dp);
+            Console.WriteLine(dn);
+            Console.WriteLine(fp);
+            Console.WriteLine(fn);
+            Console.WriteLine(x);
+            Console.WriteLine(y);
         }
     }
 }
